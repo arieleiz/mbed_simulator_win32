@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2015 sp2 (x64) (http://www.altova.com) by Ariel Eizenberg (Student) -->
+<mbedsimulator>
+	<mbed name="simple-v1" dll="simple-v1.dll">
+		<textlcd/>
+		<serial/>
+                <led name="Infusion" pin="p5" extra="green" />
+                <led name="Alarm" pin="p6" extra="red" />
+		<pushbutton name="BolusReq" pin="p7" />
+		<pushbutton name="EmptySyringe" pin="p8" />
+	</mbed>
+</mbedsimulator>
